@@ -1,0 +1,40 @@
+body {
+background-color: darkkhaki;
+}
+
+.container {
+display: grid;
+height:100vh;
+grid-template-columns: 1 fr;
+grid-template-rows: 1.2fr 1.2fr 1.2fr 1.2fr;
+grid-template-areas: "nav"
+"leftcolumn" "rightcolumn"
+"footer";
+}
+
+nav {
+background-color: blue;
+color: white;
+}
+
+#leftcolumn {
+background-color: red;
+height: 50vh;
+width: 49.5%;
+color: white;
+}
+
+#rightcolumn {
+background-color: Green;
+height: 50vh;
+width: 49.5%;
+color: white;
+}
+
+
+
+
+footer {
+background-color: black;
+color: white;
+}
